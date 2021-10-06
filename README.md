@@ -7,5 +7,4 @@
 <img src="https://user-images.githubusercontent.com/89514717/136189280-4675ab2d-46af-4af4-9b37-11e33e455204.png" height = "500">
 
 หน้า SignUp
-
-<ing src="https://user-images.githubusercontent.com/89514717/136189390-aaf7bd15-55a2-4d2a-84a4-0fe71f2f2da9.png" height = "500">
+<img src="https://user-images.githubusercontent.com/89514717/136189390-aaf7bd15-55a2-4d2a-84a4-0fe71f2f2da9.png" height = "500">
