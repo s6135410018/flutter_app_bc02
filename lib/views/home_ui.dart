@@ -1,5 +1,7 @@
 import "package:flutter/material.dart";
 import 'package:flutter/services.dart';
+import 'package:flutter_app_bc02/views/log_in_ui.dart';
+import 'package:flutter_app_bc02/views/sign_up_ui.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class HomeUI extends StatelessWidget {
@@ -14,6 +16,7 @@ class HomeUI extends StatelessWidget {
         statusBarColor: Colors.transparent,
       ),
     );
+    
     return Scaffold(
       body: SingleChildScrollView(
         child: Center(
@@ -30,7 +33,7 @@ class HomeUI extends StatelessWidget {
                   children: [
                     Icon(
                       FontAwesomeIcons.award,
-                      size: 80.0,
+                      size: 90.0,
                       color: Colors.yellow[700],
                     ),
                   ],
@@ -94,7 +97,16 @@ class HomeUI extends StatelessWidget {
                 height: 150.0,
               ),
               ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) {
+                        return LogInUI();
+                      },
+                    ),
+                  );
+                },
                 child: Text(
                   "Log In",
                   style: TextStyle(
@@ -128,7 +140,16 @@ class HomeUI extends StatelessWidget {
                     "You don't have account? ",
                   ),
                   GestureDetector(
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) {
+                            return SignUpUI();
+                          }
+                        ),
+                      );
+                    },
                     child: Text(
                       "Sign Up here",
                       style: TextStyle(
