@@ -189,6 +189,7 @@ class _LogInUIState extends State<LogInUI> {
                     "First time here ",
                     style: TextStyle(
                       color: Colors.white,
+                      fontSize: 16.0,
                     ),
                   ),
                   GestureDetector(
@@ -207,6 +208,7 @@ class _LogInUIState extends State<LogInUI> {
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Colors.blue[200],
+                        fontSize: 16.0,
                       ),
                     ),
                   ),//ให้ text กดได้ ใช้ได้ 2 ตัวคือ InkWell กับ GestureDetector
